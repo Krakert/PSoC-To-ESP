@@ -30,3 +30,6 @@
 *.exe
 *.out
 *.app
+
+.vscode
+*/sdkconfig.esp32doit-devkit-v1
