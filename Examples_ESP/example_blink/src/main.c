@@ -6,6 +6,8 @@
 
 // Built-in LED on the ESP32 DEVKIT C1 is on pin 2
 // pinout https://www.mischianti.org/wp-content/uploads/2020/11/ESP32-DOIT-DEV-KIT-v1-pinout-mischianti.png
+// TTGo-koala does not have built-in LED, just use a external LED instead
+// Pinout: https://ae01.alicdn.com/kf/HTB1OhKrbyYrK1Rjy0Fdq6ACvVXas.jpg 
 #define BLINK_GPIO 2
 
 void app_main() {

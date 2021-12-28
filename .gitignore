@@ -31,5 +31,9 @@
 *.out
 *.app
 
+# Vs code files
 .vscode
-*/sdkconfig.esp32doit-devkit-v1
+
+# ESP-IDF sdkconfig 
+*/*/sdkconfig.esp32doit-devkit-v1
+*/*/sdkconfig.esp-wrover-kit
