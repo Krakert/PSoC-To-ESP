@@ -1,8 +1,8 @@
 /*
  * Author:      Stefan de Kraker
- * Version:     1.0
+ * Version:     1.1
  *
- * Assignment Ledbar counter 2a
+ * Assignment 2a, Ledbar counter
  * This assignment display a number on the Ledbar.
  * Display the number 0: (all digits are zero (off))
  * ---------------------
