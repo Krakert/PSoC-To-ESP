@@ -33,7 +33,12 @@
 
 # Vs code files
 .vscode
+*.code_workspace
 
 # ESP-IDF sdkconfig 
 */*/sdkconfig.esp32doit-devkit-v1
 */*/sdkconfig.esp-wrover-kit
+
+# CMAKE stuff
+*/*/build
+PSoC-To-ESP.code-workspace
