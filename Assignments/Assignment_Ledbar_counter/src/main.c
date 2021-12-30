@@ -46,7 +46,7 @@ void app_main() {
         for (uint8_t j = 0; j < ledCount + 1; j++) {
             /* Print out the index */
             printf("Counter is: %i\r\n", j);
-            /* LED only go on when higher then 0 */
+            /* LEDS only go on when counter is higher then 0 */
             if (j != 0) {
                 /* Turn of the first LED, needs own if, otherwise negative index in array */
                 if (j > 1){
@@ -54,6 +54,7 @@ void app_main() {
                 }
                 gpio_set_level(ledPins[j - 1], 1);
             }
+            /* Small delay */
             vTaskDelay(500 / portTICK_RATE_MS);
         }
         /* Turn of the last LED (len - 1 == 9) */
