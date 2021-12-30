@@ -1,8 +1,8 @@
 /*
  * Author:      Stefan de Kraker
- * Version:     1.0
+ * Version:     1.1
  *
- * Assignment heartbeat 1
+ * Assignment 1, heartbeat
  * This assignment teaches the use of the delay function,
  * and controlling an GPIO on and off.
 */
