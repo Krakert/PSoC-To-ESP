@@ -3,7 +3,7 @@
  * Version:     1.0
  *
  * Simple example of the use of UART
- * It is important to add the following line to the `platformio.ini` file:
+ * It is important to add the following lines to the `platformio.ini` file:
  * 
  * monitor_speed = 115200
  * monitor_flags = 
